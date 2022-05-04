@@ -1,12 +1,12 @@
 {
-  "name": "react-native-sizer",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+    "name": "react-native-sizer",
+    "version": "1.0.0",
+    "description": "The tool I use to fix sizes in my React-Native projects.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Alfian Ananda Putra",
+    "license": "MIT"
 }
