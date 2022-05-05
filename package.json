@@ -1,6 +1,6 @@
 {
     "name": "react-native-sizer",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "The tool I use to fix sizes in my React-Native projects.",
     "main": "index.js",
     "scripts": {
@@ -8,5 +8,8 @@
     },
     "keywords": [],
     "author": "Alfian Ananda Putra",
-    "license": "MIT"
+    "license": "MIT",
+    "dependencies": {
+        "react-native-builder-bob": "^0.18.2"
+    }
 }
