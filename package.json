@@ -1,15 +1,40 @@
 {
     "name": "react-native-sizer",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "The tool I use to fix sizes in my React-Native projects.",
-    "main": "index.js",
+    "main": "lib\\commonjs\\index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prepare": "bob build"
     },
     "keywords": [],
     "author": "Alfian Ananda Putra",
     "license": "MIT",
     "dependencies": {
         "react-native-builder-bob": "^0.18.2"
-    }
+    },
+    "devDependencies": {
+        "react-native-builder-bob": "^0.18.2"
+    },
+    "react-native": "src\\index.js",
+    "module": "lib\\module\\index.js",
+    "files": [
+        "src",
+        "lib",
+        "!**/__tests__",
+        "!**/__fixtures__",
+        "!**/__mocks__"
+    ],
+    "react-native-builder-bob": {
+        "source": "src",
+        "output": "lib",
+        "targets": [
+            "commonjs",
+            "module"
+        ]
+    },
+    "eslintIgnore": [
+        "node_modules/",
+        "lib/"
+    ]
 }
