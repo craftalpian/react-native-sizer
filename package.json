@@ -1,6 +1,6 @@
 {
     "name": "react-native-sizer",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "The tool I use to fix sizes in my React-Native projects.",
     "main": "lib\\commonjs\\index.js",
     "scripts": {
